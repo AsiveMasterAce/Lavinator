@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100&display=swap');
+html {
+  font-size: 14px;
+}
+:root {
+    --color-50: #f4f8fb;
+    --color-100: #e8eff6;
+    --color-200: #cbe0ec;
+    --color-300: #9dc5dc;
+    --color-400: #69a6c7;
+    --color-500: #468bb1;
+    --color-600: #3a7ca5;
+    --color-700: #2b5a79;
+    --color-800: #274c65;
+    --color-900: #254155;
+    --color-950: #192b38;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: "Roboto", serif;
+}
+
+.bg-light-blue{
+    background-color: var(--color-50);
+}
+.text-dark-blue{
+    color: var(--color-950);
+}

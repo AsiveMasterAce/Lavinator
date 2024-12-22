@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35410.144
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lavinator", "Lavinator\Lavinator.csproj", "{004AFE42-48E1-4C88-B490-1F2953833CA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{B241B891-3120-4EE8-9F82-663036680D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LavinatorAPI", "LavinatorAPI\LavinatorAPI.csproj", "{C36C73CF-0EB5-4C47-8751-F95ACD610D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{004AFE42-48E1-4C88-B490-1F2953833CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004AFE42-48E1-4C88-B490-1F2953833CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004AFE42-48E1-4C88-B490-1F2953833CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004AFE42-48E1-4C88-B490-1F2953833CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B241B891-3120-4EE8-9F82-663036680D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B241B891-3120-4EE8-9F82-663036680D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B241B891-3120-4EE8-9F82-663036680D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B241B891-3120-4EE8-9F82-663036680D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36C73CF-0EB5-4C47-8751-F95ACD610D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36C73CF-0EB5-4C47-8751-F95ACD610D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36C73CF-0EB5-4C47-8751-F95ACD610D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36C73CF-0EB5-4C47-8751-F95ACD610D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
